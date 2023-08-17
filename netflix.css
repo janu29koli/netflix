@@ -1,0 +1,353 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/netflix.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    color: white;
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+#drop{
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+}
+#menu{
+    display: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    background-color: white;
+    color: black;   
+    position: absolute; 
+    text-decoration: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+
+#right{
+    display: inline-block;
+    gap: 20px;
+}
+h1 a{
+    text-decoration: none;
+    color: red;
+    margin-left: 25px;
+    font-size: 35px;
+}
+#para{
+    text-align: center;
+    margin-top: 175px;
+    color: white;
+}
+#para h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+#para h3{
+    margin-bottom: 8px;
+}
+#para p{
+    font-size: 20px;
+}
+#para button{
+    color: white;
+    width: 160px;
+    height: 50px;
+    border: none;
+    margin-right: 20px;
+    background-color: rgb(220, 18, 18);
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+#para input{
+    background-color: rgba(0, 0, 0, 0.298);   
+    width: 280px;
+    height: 50px;
+    color: white;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 8px;
+}
+
+#lang{
+    color: white;
+    width: 120px;
+    height: 35px;
+    border: 1px solid white;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.371);
+    border-radius: 5px;
+    margin: 0px;
+    
+}
+#sign{
+    color: white;
+    width: 80px;
+    height: 35px;
+    margin-right: 20px;
+    background-color: rgb(220, 18, 18);
+    border-radius: 5px;
+    margin: 20px;
+    
+}
+
+#enjoy {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#enjoy div{
+    width: 45%;
+}
+#left h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+#left p{
+    font-size: 23px;
+}
+#enjoy #right{
+    position: relative;
+}
+#enjoy #right img{
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+#enjoy #right video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#content{
+    background-color: black;
+}
+
+#enjoy1 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#enjoy1 div{
+    width: 45%;
+}
+#right1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#right1 h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+#right1 p{
+    font-size: 23px;
+}
+#enjoy1 #left1{
+    position: relative;
+}
+#enjoy1 #left1 img{
+    width: 100%;
+    height: auto;
+}
+#content1{
+    background-color: black;
+}
+
+
+#enjoy2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#enjoy2 div{
+    width: 45%;
+}
+#left2 h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+#left2 p{
+    font-size: 23px;
+}
+#enjoy2 #right2{
+    position: relative;
+}
+#enjoy2 #right2 img{
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+#enjoy2 #right2 video{
+    position: absolute;
+    top: 12%;
+    left: 23%;
+    width: 53%;  
+    z-index: 1;
+}
+#content2{
+    background-color: black;
+}
+
+#enjoy3 {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+#enjoy3 div{
+    width: 45%;
+}
+#right3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#right3 h1{
+    font-size: 48px;
+    margin-bottom: 0px;
+}
+#right3 p{
+    font-size: 23px;
+}
+#enjoy3 #left3{
+    position: relative;
+}
+#enjoy3 #left3 img{
+    width: 100%;
+    height: auto;
+}
+#content3{
+    background-color: black;
+}
+   
+
+
+/* --- Mobile Version --- */
+
+@media(max-width:600px){
+    body{
+        background-size: 190%;
+        background-position-x: center;
+        background-position-y: top;
+    }
+    #cont{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #drop{
+        position: relative;
+    }
+    #menu{
+        margin: 0px;
+        padding: 20px;
+    }
+    #drop:hover #menu{
+        display: block;
+    }
+    #right{
+        display: inline-block;
+        gap: 20px;
+    }
+    h1 a{
+        margin-left: 12px;
+        font-size: 25px;
+    }
+    h1{
+        margin: 0px;
+    }
+    #para{
+        margin-top: 44px;
+        padding: 10px;
+    }
+    #para h1{
+        font-size: 34px;
+        font-weight: 400;
+    }
+    #para h2{
+        font-size: 17px;
+    }
+    #para h3{
+        font-size: 17px;
+        margin-bottom: 8px;
+        margin: 0px 35px 0px 35px;
+    }
+    #para p{
+        font-size: 15px;
+    }
+    #para button{
+        width: 141px;
+        height: 48px;
+        margin-right: 10px;
+        font-size: 19px;
+    }
+    #para input{
+        width: 249px;
+        height: 40px;
+        font-size: 15px;
+        margin: 15px;
+    }
+    
+    #lang{
+        width: 101px;
+        height: 30px;
+        margin-right: 20px;
+        margin: -14px;
+        
+    }
+    #sign{
+        width: 73px;
+        height: 30px;
+        margin-right: 20px;
+        margin: 20px;
+        
+    }
+
+    #enjoy {
+        flex-direction: column;
+        width: 95%;
+    }
+    #enjoy div{
+        width: 85%;
+        text-align: center;
+    }
+    #left h1{
+        font-size: 33px;
+        margin-bottom: 0px;
+        margin-top:34px;
+    }
+    #left p{
+        font-size: 20px;
+    }
+    
+    
+
+
+    
+}
